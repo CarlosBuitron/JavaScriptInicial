@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Inicio.html" />
     <Content Include="scripts\Funciones.js" />
+    <Content Include="scripts\Funciones2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

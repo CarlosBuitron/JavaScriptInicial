@@ -8,6 +8,10 @@
             arrValores.push(number);
         }
     } while (!isNaN(number));
+
+    var obj = { rmedia: 0 };
+    escribir();
+
 })();
 
 function sumar() {
@@ -23,14 +27,9 @@ function media() {
     
 }
 
-var obj = { rmedia: 0 };
-
 function escribir()
 {
     alert("La suma total es: " + sumar());
     media.call(obj);
     alert("La media total es: " + obj.rmedia);
-
 }
-
-escribir();
